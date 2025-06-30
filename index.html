@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hindi Voice Test</title>
+</head>
+<body>
+    <button onclick="testVoices()">Test Hindi Voices</button>
+    
+    <!-- Import as a module -->
+    <script type="module">
+        import { testAllVoices } from './speak.js';
+        window.testVoices = () => testAllVoices();
+    </script>
+</body>
+</html>
+  
