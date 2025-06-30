@@ -1,4 +1,5 @@
-const BASE_URL = "http://localhost:5000/query";
+// const BASE_URL = "http://localhost:5000/query";
+const BASE_URL = "https://python-ai-be.onrender.com/query";
 
 const fetchWrapper = async (options = {}) => {
   try {
